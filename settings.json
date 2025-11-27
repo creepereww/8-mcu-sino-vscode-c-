@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "define.h": "c",
+        "global.h": "c"
+    },
+    "files.exclude": {
+                "**/.git": true,
+                "**/.svn": true,
+                "**/.hg": true,
+                "**/CVS": true,
+                "**/.DS_Store": true,
+                "**/*.g.dart": true,
+                "**/*.Proj": true
+            },
+}

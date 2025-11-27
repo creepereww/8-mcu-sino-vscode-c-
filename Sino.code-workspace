@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "../",
+			"name": "工作文件"
+		},
+		{
+			"path": "D:/工作/Sino",
+			"name": "Sino头文件"
+		},
+		// {
+		// 	"path": "D:/工作/Sino/SINO_MCU_吸烟电路板_开发日记.md"
+		// }
+	],
+	"settings": {
+		"files.associations": {
+			"mc9989.h": "c",
+			"define.h": "c",
+			"mc32-common.h": "c",
+			"global.h": "c"
+		}
+	}
+}
