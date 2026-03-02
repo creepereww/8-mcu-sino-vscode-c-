@@ -1,20 +1,28 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "sdcc",
             "includePath": [
                 "${workspaceFolder}/**",
-                ".."
+                "D:/นคื๗/Sino/include/"
             ],
             "defines": [
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE"
+                "_UNICODE",
+                "__sfr=unsigned char",
+                "__sbit=int",
+                "__at(a)= ",
+                "__data= ",
+                "__xdata= ",
+                "__interrupt n= ",
+                "__using= "
             ],
+            
             "compilerPath": "D:\\x86_64-14.2.0-release-win32-seh-ucrt-rt_v12-rev0\\mingw64\\bin\\gcc.exe",
             "cStandard": "c17",
             "cppStandard": "gnu++17",
-            "intelliSenseMode": "windows-gcc-x64"
+            "intelliSenseMode": "linux-gcc-x64"
         }
     ],
     "version": 4
